@@ -6,7 +6,7 @@ backup_exclude:
 - node_modules
 description: Homebridge - HomeKit support for the impatient
 host_network: true
-image: homebridge/homebridge:latest
+image: homebridge/homebridge
 init: false
 map:
 - path: /homebridge
@@ -19,5 +19,5 @@ ports_description:
   8581/tcp: Homebridge UI
 slug: homebridge
 url: https://hub.docker.com/r/homebridge/homebridge
-# version: '2025-07-15'
+version: '2025-07-25'
 webui: http://[HOST]:[PORT:8581]
